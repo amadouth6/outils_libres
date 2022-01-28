@@ -9,9 +9,11 @@ Vagrant.configure("2") do |config|
     set -ex
     apt-get update
     apt-get -y install libnss-mdns
+    useradd --shell /bin/bash --create-home patrick || true
     useradd --shell /bin/bash --create-home alice || true
     useradd --shell /bin/bash --create-home bob || true
     useradd --shell /bin/bash --create-home carol || true
+    echo patrick:1234 | chpasswd
     echo alice:1234 | chpasswd
     echo bob:azerty | chpasswd
     echo carol:secret | chpasswd
