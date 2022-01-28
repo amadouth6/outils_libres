@@ -34,8 +34,9 @@ Vagrant.configure("2") do |config|
     b.vm.hostname = "srv"
 
     b.vm.provision "shell", inline: <<-SHELL
-      apt-get -y install apache2 ruby
+      apt-get -y install apache2 ruby php
       a2enmod cgi
+      a2enmod php
       systemctl restart apache2.service
       cp /vagrant/srv/test1.cgi /usr/lib/cgi-bin/test1.cgi
       cp /vagrant/srv/test2.cgi /usr/lib/cgi-bin/test2.cgi
