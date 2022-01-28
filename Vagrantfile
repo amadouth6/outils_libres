@@ -31,6 +31,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "srv" do |b|
     b.vm.box = "debian/contrib-stretch64"
     b.vm.network "private_network", ip: "10.0.0.3"
+    b.vm.network "forwarded_port", guest: 80, host: 8080
     b.vm.hostname = "srv"
 
     b.vm.provision "shell", inline: <<-SHELL
