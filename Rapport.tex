@@ -1,0 +1,199 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {/home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/} }
+
+
+\title{Rapport Outils Libres} 
+
+\author{THIAM Amadou Moctar et KNORST Nicolas }
+\date{Janvier 2022}
+
+\newpage
+\begin{document}
+
+\maketitle
+
+\section{Efficacité environnement de travail}
+
+\subsection{ Exercice 1 : }
+
+\begin{itemize}
+    \item \textbf{Désactivation de notre souris} : \\
+    \\ \# \textit{\textbf{xinput --list}} → permet de lister les périphériques connectés ; \\
+    \# \textit{\textbf{xinput -set-prop "id" "Device Enabled" 0}}→ pour désactiver la souris en remplaçant \textit{\textbf{id}} par la valeur affichée.\\
+    
+\item \textbf{Tableau de problèmes et de ses correctifs :} \\
+
+\end{itemize} 
+\begin{tabular}{|c|lr|}
+     \hline 
+     Problème & Correctif\\
+     \hline
+     Ouvri le terminal sous Ubuntu & Ctrl + Alt + T\\
+     \hline
+     Démarrer Firefox ou Brave depuis le terminal & \$ firefox ou brave-browser \\
+     \hline
+     Saisir directement sur la barre d'URL & Ctrl + E \\
+     \hline
+     Page précédente / suivante & Alt + ← | Alt + → \\
+     \hline
+     Switcher entre les onglets du terminal (raccourcis créer) & Alt + ← | Alt + → \\
+\end{tabular}
+
+\subsection{Exercice 2 :}
+
+\begin{itemize}
+    \item Nous avons choisi TypingClub comme site web pour amélioré notre saisie automatique ;
+    \item Nous l'avons choisi parce que : 
+    \begin{itemize}
+        \item Une interface utilisateur belle et propre ;
+        \item Possibilité de s'entrainer pas à pas pour progresser à son rythme et avoir un aperçu de ses progrès ;
+        \item Possibilité de créer un compte et de sauvegarder ses ses progrès ;
+        \item Possibilité d'apprendre en fonction de la disposition de son clavier ;
+        \item Possibilité d'apprendre en mode jeu. 
+        \item Capture de l'interface
+    \end{itemize}
+    
+\end{itemize}
+
+\begin{center}
+	\includegraphics[scale=0.30]{40} \\
+	\hfill \break
+	\hfill \break
+	\includegraphics[scale=0.30]{41}
+\end{center}
+
+\subsection{Exercice 3 :}
+	\begin{itemize}
+		\item Effectuer les tutoriels avec VIM :
+	\end{itemize}
+	\begin{center}
+		\includegraphics[scale=0.30]{42}
+	\end{center}
+	\begin{itemize}
+		\item Paramétrage de GNU Readline :
+			\begin{itemize}
+				\item \textit{\textbf{\$ set -o vi}}
+			\end{itemize}
+		\item L'éditeur choisi est Vim
+		\item  Vim comme éditeur par défaut : dans le fichier \textit{.bashrc} : 
+			\begin{itemize}
+			\item \textit{\textbf{export VISUAL=vim}}
+			\item \textit{\textbf{export EDITOR="\$VISUAL"}}
+		\end{itemize}
+	\end{itemize}
+	
+\subsection{Exercice 4 :}
+	\begin{itemize}
+		\item Regarder notre historique :
+		\begin{itemize}
+			\item \textit{\textbf{\$ history}} ou bien \textit{\textbf{\$ cat /home/user/.bash\_history}}
+		\end{itemize}
+		\item Oui il y en certaines commandes sensibles et la façon de gérer cela est d'empêcher ces commandes de l'historique bash lui-même
+		\item Pour éviter que certaines commandes de l'historique n'apparaissent, dans le fichier \textit{.bashrc}, on ajoute la ligne suivante :
+		\begin{itemize}
+			\item \textit{HISTIGNORE = ls cd pwd}
+		\end{itemize}
+		
+	\end{itemize}
+
+\subsection{Exercice 5 :}
+	\begin{itemize}
+		\item Écriture d'une bash fonction mkcd : \\ Dans le fichier \textit{.bashrc}, on ajoute les lignes suivantes : 
+		
+		\begin{itemize}
+			\item \textit{mkcd() \{ \\ mkdir "\$1" ; \\ cd "\$1" ; \\ \}}
+		\end{itemize}
+		
+		\item Écriture de la fonction gitemergency :
+			\begin{itemize}
+				\item \textit{gitemergency() \{ \\
+                git add .; \\
+                git commit -m "@"; \\
+                git push origin Head; \\
+            \}}
+			\end{itemize}
+	\end{itemize}
+	
+\subsection{Exercice 6 : }
+
+	\begin{itemize}
+		\item \textbf{\textit{\$ touch backup.sh }}→ création du fichier backup
+		\item \textbf{\textit{\$ chmod +x backup.sh}} 
+		\item Code du fichier \textit{bash\_completion} : 
+	\end{itemize}
+	\begin{tabular}{|l|}
+		\hline
+			\hfill \break \\
+			if ! shopt -oq posix; then \\
+  			if [ -f /usr/share/bash-completion/bash\_completion ]; then \\
+    				. /usr/share/bash-completion/bash\_completion \\
+  			elif [ -f /etc/bash\_completion ]; then \\
+    				. /etc/bash\_completion \\
+  			fi \\
+			fi \\
+			\hfill		
+		
+	\end{tabular}
+	\begin{itemize}
+		\item \textbf{\textit{\$ source bash\_autocompletion}}
+	\end{itemize}
+	
+
+\subsection{Exercice 7 : }
+	\begin{itemize}
+		\item Installation de ZSH :
+			\begin{itemize}
+				\item \textbf{\textit{(sudo) apt install zsh -y }}
+			\end{itemize}
+		\item Modification du prompt pour inclure les informations de vagrant : \\
+		Les configurations sont à faire dans le fichier \textit{.zshrc}, en spécifiant : 
+		\begin{itemize}
+		 \item \textit{ZSH\_THEME=agnoster} → pour spécifier le nom du thème choisi ;
+		 \item \textit{plugin=vagrant-prompt.plugin.zsh} → choisir le nom du 
+		 \item Dans le fichier \textit{.oh-my-zsh/themes/agnoster.zsh-theme}, on ajoute les lignes suivantes : 
+		\end{itemize}
+	\end{itemize}
+	PROMPT='\%\{\$fg[\$NCOLOR]\%\}\%B\%n\%b\%\{\$reset\_color\%\}:\%\{\$fg[blue]\%\}\%B\%c/\%b\%\{\$reset\_color\%\} \$(vagrant\_prompt\_info)\$(svn\_prompt\_info)\$(git\_prompt\_info)\%(!.\#.\$)' → modification de variable de prompt ;
+	
+	\hfill \break
+	- Ajout des variables de couleurs : \\
+	\includegraphics[scale=0.5]{44}
+	
+
+\subsection*{Exercice 9 :}
+	\begin{itemize}
+		\item Installation de trois émulateurs de terminaux à savoir guake, roxterm et xterm: 
+			\begin{itemize}
+				\item \textit{\textbf{\$ sudo apt-get install -y guake roxterm xterm}}
+			\end{itemize}
+		\item Nous avons choisi Guake comme émulateur parce qu'il est : léger, rapide, multi-tab et hautement personnalisable.
+		\item Suppression des autres : 
+		\begin{itemize}
+				\item \textit{\textbf{\$ sudo apt-get --purge remove -y roxterm xterm}}
+			\end{itemize}
+	\end{itemize}
+	
+\newpage
+	\section{SSH :}
+	\subsection{Exerice 1 :}
+	\begin{itemize}
+		\item \textbf{\textit{\$ vagrant up }} →  Démarrer l'environnement Vagrant : 
+		\item \textbf{\textit{\$ ssh bob@srv.local }} → connexion avec l'utilisateur bob
+		\item \textbf{\textit{\$ ssh alice@srv.local }} → connexion avec l'utilisateur alice
+		\item \textbf{\textit{\$ ssh carole@srv.local }} → connexion avec l'utilisateur carole 
+		\item Vérification qu'on est sur la Vagrant :
+	\end{itemize}
+	
+	\includegraphics[scale=0.5]{51}
+	\includegraphics[scale=0.5]{52}
+	\includegraphics[scale=0.5]{53}
+	\begin{itemize}
+		\item On remarque que la commande de la connexion SSH sur la machine vagrant et présente
+	\end{itemize}
+	
+	
+
+
+\end{document}
