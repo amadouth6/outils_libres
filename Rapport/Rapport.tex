@@ -193,7 +193,74 @@
 		\item On remarque que la commande de la connexion SSH sur la machine vagrant et présente
 	\end{itemize}
 	
+	\subsection*{Exercice 2 :}
+	\begin{itemize}
+		\item Création d'une paire de clé privée et public :
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh-keygen -q -t rsa -f my\_keys -C '' -N 'passer'}}
+			\end{itemize}
+		\item Dépôt de la clé publique :
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh-copy-id  -i ~/.ssh/my\_keys.pub alice@cli.local}}
+			\end{itemize}
+	\end{itemize}
 	
+	\includegraphics[scale=0.50]{54}
+	
+	\begin{itemize}
+		\item Dépôt manuelle de la clé publique vers bob:
+			\begin{itemize}
+				\item \textbf{\textit{\$ scp  ~/.ssh/my\_key.pub  bob@cli.local :\~/.ssh/authorized\_keys}}
+				\item \textbf{\textit{\$ ssh bob@cli.local}}
+			\end{itemize}
+	\end{itemize}
+	
+	\includegraphics[scale=0.5]{55}
+	
+	\begin{itemize}
+		\item La passphrase d’une clé privée permet d’ajouter une couche supplémentaire de sécurité en cas de vol ou de divulgation accidentelle de la clé privée.
 
+	\end{itemize}
+	
+	
+	\subsection{Exercice 3 :}
+	\begin{itemize}
+		\item Suppression des adresse ajoutées dans le fichier "known\_host"
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh-keygen -R  cli.local}}
+				\item \textbf{\textit{\$ ssh-keygen -R  srv.local}}
+			\end{itemize}		
+		\item Ajout de la clé publique de srv (192.168.56.3)
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh-keyscan -H  192.168.56.3 >> known\_hosts}}
+			\end{itemize}
+	\end{itemize}
+	
+	\begin{itemize}
+		\item –	Création du fichier de configuration SSH \\
+		\textbf{\textit{Host bc \\          
+  					Hostname 192.168.56.2 \\
+  					User bob \\
+  					Port 22 \\
+  					PreferredAuthentications publickey \\
+  					IdentityFile ~/.ssh/My\_keys.pub \\ }}
+ 		
+	\end{itemize}
+	
+	\subsection{Exercice 3-bis :}
+	\begin{itemize}
+		\item Connexion à la machine cli en utilisant SFTP
+			\begin{itemize}
+				\item \textbf{\textit{\$ sftp alice@cli.local}}
+				\item \textbf{\textit{\$ put /home/amadoou/Bureau/exemple\_file.txt}} → copie d'un fichier de la machine local vers cli ;
+				\item \textbf{\textit{\$ echo "remote file" > remote\_file}} → création d'un fichier sur cli ;
+				\item \textbf{\textit{\$ get remote\_file /home/amadou/Bureau/}} → copie du fichier vers la machine hôte.
+			\end{itemize}
+		\item Connexion à cli avec SSHFS
+			\begin{itemize}
+				\item \textbf{\textit{\$ mkdir \~/mount\_rep/}} → création du répertoire de montage ;
+				\item \textbf{\textit{\$ sshfs alice@cli.local:/home/alice/ \~/mount\_rep/}} → 
+			\end{itemize}
+	\end{itemize}
 
 \end{document}
