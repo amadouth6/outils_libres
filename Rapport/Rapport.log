@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.31)  3 FEB 2022 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.31)  8 FEB 2022 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,14 +220,108 @@ Overfull \hbox (90.99963pt too wide) in paragraph at lines 189--192
 [][] [] [] 
  []
 
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/54.png, id=41, 821.0
+675pt x 383.4325pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/54.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/54.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/54.png  used on input line 208.
+(pdftex.def)             Requested size: 410.53275pt x 191.71577pt.
+
+Overfull \hbox (80.53275pt too wide) in paragraph at lines 208--209
+[][] 
+ []
+
+
+Overfull \hbox (1.26302pt too wide) in paragraph at lines 213--214
+[]\TS1/cmr/bx/it/10 $ \OT1/cmr/bx/it/10 scp  /.ssh/my[]key.pub bob@cli.local :[
+]/.ssh/authorized[]keys 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/55.png, id=42, 708.6
+475pt x 256.96pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/55.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/55.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/55.png  used on input line 218.
+(pdftex.def)             Requested size: 354.32289pt x 128.47968pt.
+
+Overfull \hbox (24.32289pt too wide) in paragraph at lines 218--219
+[][] 
+ []
+
 [6 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/51.png> </home/am
 adou/Bureau/IUT/Outils_Libres_Cote_client/Capture/52.png> </home/amadou/Bureau/
-IUT/Outils_Libres_Cote_client/Capture/53.png>] (./Rapport.aux) ) 
+IUT/Outils_Libres_Cote_client/Capture/53.png> </home/amadou/Bureau/IUT/Outils_L
+ibres_Cote_client/Capture/54.png>]
+Overfull \hbox (1.33386pt too wide) in paragraph at lines 221--222
+[]\OT1/cmr/m/n/10 La passphrase d'une cl^^Se priv^^See per-met d'ajouter une co
+uche suppl^^Sementaire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--247
+
+ []
+
+[7 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/55.png>]
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/58.png, id=55, 522.9
+5375pt x 182.6825pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/58.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/58.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/58.png  used on input line 274.
+(pdftex.def)             Requested size: 261.47623pt x 91.34102pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/69.png, id=56, 581.1
+7125pt x 297.11pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/69.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/69.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/69.png  used on input line 285.
+(pdftex.def)             Requested size: 290.58492pt x 148.55463pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png, id=57, 456.7
+0625pt x 239.89626pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/70.png  used on input line 295.
+(pdftex.def)             Requested size: 228.35255pt x 119.94783pt.
+ [8 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/58.png> </home/a
+madou/Bureau/IUT/Outils_Libres_Cote_client/Capture/69.png>]
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png, id=63, 948.5
+4375pt x 259.97125pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/59.png  used on input line 306.
+(pdftex.def)             Requested size: 474.2707pt x 129.9853pt.
+
+Overfull \hbox (144.2707pt too wide) in paragraph at lines 306--307
+[][] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/61.png, id=64, 354.3
+2375pt x 204.765pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/61.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/61.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/61.png  used on input line 312.
+(pdftex.def)             Requested size: 177.16144pt x 102.38223pt.
+[9 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png> </home/am
+adou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png> </home/amadou/Bureau/
+IUT/Outils_Libres_Cote_client/Capture/61.png>] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 1270 strings out of 483183
- 19992 string characters out of 5966292
+ 1320 strings out of 483183
+ 22051 string characters out of 5966292
  248220 words of memory out of 5000000
- 16311 multiletter control sequences out of 15000+600000
+ 16361 multiletter control sequences out of 15000+600000
  538394 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,7n,25p,267b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -243,10 +337,10 @@ onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti10.pfb>
-Output written on Rapport.pdf (6 pages, 370943 bytes).
+Output written on Rapport.pdf (9 pages, 599096 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

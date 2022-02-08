@@ -262,5 +262,54 @@
 				\item \textbf{\textit{\$ sshfs alice@cli.local:/home/alice/ \~/mount\_rep/}} → 
 			\end{itemize}
 	\end{itemize}
-
+	
+	\subsection{Exercice 4 :}
+	\begin{itemize}
+		\item Création d’un tunnel SSH avec SRV à travers CLI
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh -N -f -L 8000:srv.local:80 alice@cli.local}}
+			\end{itemize}
+	\end{itemize}
+	
+	\includegraphics[scale=0.5]{58}
+	
+	\subsection{Exercice 5 : }
+	\begin{itemize}
+		\item Création d’un tunnel SSH entre notre poste et SRV à travers la machine CLI
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh -L 2500:srv.local:80 alice@cli.local}}
+			\end{itemize}
+		\item Test en ouvrant le navigateur sur notre poste local 
+	\end{itemize}
+	
+	\includegraphics[scale=0.5]{69}
+	
+	\subsection{Exercice 6 :}
+	\begin{itemize}
+		\item Connexion à CLI en activant le forwarding X11
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh -X alice@cli.local}}
+			\end{itemize}
+		\item Lancement d'une application graphique
+	\end{itemize}
+	
+	\includegraphics[scale=0.5]{70}
+	
+	\subsection{Exercice 7 :}
+	\begin{itemize}
+		\item Avec proxyjump :
+			\begin{itemize}
+				\item \textbf{\textit{\$ ssh -J alice@cli.local bob@srv.local}}
+			\end{itemize}
+		
+	\end{itemize}
+	
+	\includegraphics[scale=0.5]{59}
+	
+	\begin{itemize}
+		\item Avec ProxyCommand :
+		
+	\end{itemize}
+	\includegraphics[scale=0.5]{61}
+	
 \end{document}
