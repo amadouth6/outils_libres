@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.31)  8 FEB 2022 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.31)  10 FEB 2022 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -289,7 +289,7 @@ File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png Graphic
 file (type png)
 <use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png>
 Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
-ure/70.png  used on input line 295.
+ure/70.png  used on input line 296.
 (pdftex.def)             Requested size: 228.35255pt x 119.94783pt.
  [8 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/58.png> </home/a
 madou/Bureau/IUT/Outils_Libres_Cote_client/Capture/69.png>]
@@ -299,10 +299,10 @@ File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png Graphic
 file (type png)
 <use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png>
 Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
-ure/59.png  used on input line 306.
-(pdftex.def)             Requested size: 474.2707pt x 129.9853pt.
+ure/59.png  used on input line 307.
+(pdftex.def)             Requested size: 379.41077pt x 103.98665pt.
 
-Overfull \hbox (144.2707pt too wide) in paragraph at lines 306--307
+Overfull \hbox (49.41077pt too wide) in paragraph at lines 307--308
 [][] 
  []
 
@@ -312,35 +312,248 @@ File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/61.png Graphic
 file (type png)
 <use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/61.png>
 Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
-ure/61.png  used on input line 312.
-(pdftex.def)             Requested size: 177.16144pt x 102.38223pt.
+ure/61.png  used on input line 313.
+(pdftex.def)             Requested size: 141.72697pt x 81.90454pt.
 [9 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/70.png> </home/am
 adou/Bureau/IUT/Outils_Libres_Cote_client/Capture/59.png> </home/amadou/Bureau/
-IUT/Outils_Libres_Cote_client/Capture/61.png>] (./Rapport.aux) ) 
+IUT/Outils_Libres_Cote_client/Capture/61.png>]
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/1.png, id=71, 1124.2
+pt x 219.82124pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/1.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/1.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/1.png  used on input line 324.
+(pdftex.def)             Requested size: 449.67204pt x 87.92693pt.
+
+Overfull \hbox (104.67204pt too wide) in paragraph at lines 324--325
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
+
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/2.png, id=72, 1166.3
+575pt x 225.84375pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/2.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/2.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/2.png  used on input line 332.
+(pdftex.def)             Requested size: 431.54552pt x 83.56087pt.
+
+Overfull \hbox (101.54552pt too wide) in paragraph at lines 332--333
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--336
+
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/3.png, id=73, 1125.2
+0375pt x 234.8775pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/3.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/3.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/3.png  used on input line 337.
+(pdftex.def)             Requested size: 416.31888pt x 86.9033pt.
+
+Overfull \hbox (86.31888pt too wide) in paragraph at lines 337--338
+[][] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/4.png, id=74, 869.24
+75pt x 255.95625pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/4.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/4.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/4.png  used on input line 342.
+(pdftex.def)             Requested size: 321.61653pt x 94.70232pt.
+[10 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/1.png> </home/am
+adou/Bureau/IUT/Outils_Libres_Cote_client/Capture/2.png> </home/amadou/Bureau/I
+UT/Outils_Libres_Cote_client/Capture/3.png> </home/amadou/Bureau/IUT/Outils_Lib
+res_Cote_client/Capture/4.png>]
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/5.png, id=82, 898.35
+625pt x 112.42pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/5.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/5.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/5.png  used on input line 347.
+(pdftex.def)             Requested size: 332.3866pt x 41.59474pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/6.png, id=83, 795.97
+375pt x 336.25626pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/6.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/6.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/6.png  used on input line 352.
+(pdftex.def)             Requested size: 294.50568pt x 124.41286pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/7.png, id=84, 586.19
+pt x 50.1875pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/7.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/7.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/7.png  used on input line 362.
+(pdftex.def)             Requested size: 234.47185pt x 20.07463pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/8.png, id=85, 351.31
+25pt x 75.28125pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/8.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/8.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/8.png  used on input line 367.
+(pdftex.def)             Requested size: 140.5225pt x 30.11195pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/9.png, id=86, 824.07
+875pt x 400.49625pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/9.png Graphic f
+ile (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/9.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/9.png  used on input line 371.
+(pdftex.def)             Requested size: 329.62566pt x 160.19566pt.
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/11.png, id=87, 858.2
+0625pt x 129.48375pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/11.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/11.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/11.png  used on input line 375.
+(pdftex.def)             Requested size: 343.27641pt x 51.79257pt.
+ [11 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/5.png> </home/a
+madou/Bureau/IUT/Outils_Libres_Cote_client/Capture/6.png> </home/amadou/Bureau/
+IUT/Outils_Libres_Cote_client/Capture/7.png> </home/amadou/Bureau/IUT/Outils_Li
+bres_Cote_client/Capture/8.png> </home/amadou/Bureau/IUT/Outils_Libres_Cote_cli
+ent/Capture/9.png>]
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/13.png, id=96, 917.4
+275pt x 192.72pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/13.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/13.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/13.png  used on input line 380.
+(pdftex.def)             Requested size: 366.96451pt x 77.08662pt.
+
+Overfull \hbox (21.96451pt too wide) in paragraph at lines 380--381
+[] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/17.png, id=97, 720.6
+925pt x 129.48375pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/17.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/17.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/17.png  used on input line 389.
+(pdftex.def)             Requested size: 360.34537pt x 64.7417pt.
+
+Overfull \hbox (15.34537pt too wide) in paragraph at lines 389--390
+[] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/18.png, id=98, 747.7
+9375pt x 153.57375pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/18.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/18.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/18.png  used on input line 397.
+(pdftex.def)             Requested size: 373.89595pt x 76.78668pt.
+
+Overfull \hbox (28.89595pt too wide) in paragraph at lines 397--398
+[] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/20.png, id=99, 840.1
+3875pt x 95.35625pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/20.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/20.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/20.png  used on input line 406.
+(pdftex.def)             Requested size: 420.06834pt x 47.678pt.
+
+Overfull \hbox (75.06834pt too wide) in paragraph at lines 406--407
+[] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/19.png, id=100, 510.
+90875pt x 102.3825pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/19.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/19.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/19.png  used on input line 411.
+(pdftex.def)             Requested size: 255.45375pt x 51.19112pt.
+[12 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/11.png> </home/a
+madou/Bureau/IUT/Outils_Libres_Cote_client/Capture/13.png> </home/amadou/Bureau
+/IUT/Outils_Libres_Cote_client/Capture/17.png> </home/amadou/Bureau/IUT/Outils_
+Libres_Cote_client/Capture/18.png> </home/amadou/Bureau/IUT/Outils_Libres_Cote_
+client/Capture/20.png>]
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/22.png, id=109, 907.
+39pt x 198.7425pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/22.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/22.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/22.png  used on input line 417.
+(pdftex.def)             Requested size: 453.6939pt x 99.371pt.
+
+Overfull \hbox (108.6939pt too wide) in paragraph at lines 417--418
+[] 
+ []
+
+</home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/23.png, id=110, 792.
+9625pt x 146.5475pt>
+File: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/23.png Graphic 
+file (type png)
+<use /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/23.png>
+Package pdftex.def Info: /home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capt
+ure/23.png  used on input line 426.
+(pdftex.def)             Requested size: 396.48027pt x 73.27356pt.
+
+Overfull \hbox (51.48027pt too wide) in paragraph at lines 426--427
+[] 
+ []
+
+[13 </home/amadou/Bureau/IUT/Outils_Libres_Cote_client/Capture/19.png> </home/a
+madou/Bureau/IUT/Outils_Libres_Cote_client/Capture/22.png> </home/amadou/Bureau
+/IUT/Outils_Libres_Cote_client/Capture/23.png>] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 1320 strings out of 483183
- 22051 string characters out of 5966292
+ 1439 strings out of 483183
+ 26969 string characters out of 5966292
  248220 words of memory out of 5000000
- 16361 multiletter control sequences out of 15000+600000
+ 16471 multiletter control sequences out of 15000+600000
  538394 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,7n,25p,267b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/amadou/
-.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1000.600pk> </home/amado
-u/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbi1000.600pk> </home/ama
-dou/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb>
-Output written on Rapport.pdf (9 pages, 599096 bytes).
+ </home/amadou
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1000.600pk> </home/amad
+ou/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbi1000.600pk> </home/am
+adou/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti10.pfb>
+Output written on Rapport.pdf (13 pages, 1052809 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 160 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

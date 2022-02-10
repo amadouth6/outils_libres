@@ -304,12 +304,131 @@
 		
 	\end{itemize}
 	
-	\includegraphics[scale=0.5]{59}
+	\includegraphics[scale=0.4]{59}
 	
 	\begin{itemize}
 		\item Avec ProxyCommand :
 		
 	\end{itemize}
-	\includegraphics[scale=0.5]{61}
+	\includegraphics[scale=0.4]{61}
 	
+\newpage
+	\section{GIT :}
+	\subsection{Exerice 1 :}
+	
+	\begin{itemize}
+		\item \textbf{\textit{\$ mkdir git\_rep}} → création du répertoire de travail \\
+			  \textbf{\textit{\$ git init}} → initialisation de git ; \\
+			  \textbf{\textit{\$ git status}}  
+	\end{itemize}
+	\includegraphics[scale=0.4]{1}
+	
+	\begin{itemize}
+		\item \textbf{\textit{\$ vagrant up}} \\
+			  \textbf{\textit{\$ vagrant halt}} → initialisation de git ; \\
+			  \textbf{\textit{\$ git status}}  ; \\
+	\end{itemize}
+	
+	\includegraphics[scale=0.37]{2} \\
+	
+	Nous constatons que le dossier \textbf{\textit{".vagrant"}} a été ajouté aux fichiers suivi, alors qu’il ne devrait pas y être.
+	Pour l’enlever il suffit d’ajout dans le fichier \textbf{\textit{".gitignore"}} la valeur suivant : \textbf{\textit{".vagrant"}} \\
+	
+	\includegraphics[scale=0.37]{3}
+	
+	\begin{itemize}
+		\item \textbf{\textit{\$ git add Vagrantfile srv}}
+	\end{itemize}
+	\includegraphics[scale=0.37]{4}
+	
+	\begin{itemize}
+		\item \textbf{\textit{\$ git commit -m "commit\_1"}}
+	\end{itemize}
+	\includegraphics[scale=0.37]{5}
+	
+	\begin{itemize}
+		\item \textbf{\textit{\$ git show}}
+	\end{itemize}
+	\includegraphics[scale=0.37]{6}
+	
+	\subsection{Exercice 2 :}
+	\begin{itemize}
+		\item Création d'une nouvelle branche
+		\begin{itemize}
+			\item \textbf{\textit{\$ git checkout -b branche\_1}}
+		\end{itemize}
+		\item Ajout de l'utilisateur Patrick
+	\end{itemize}
+	\includegraphics[scale=0.4]{7}
+	
+	\begin{itemize}
+		\item Installation et activation de php dans apache
+	\end{itemize}
+	\includegraphics[scale=0.4]{8}
+	\begin{itemize}
+		\item effectuer deux commits distincts
+	\end{itemize}
+	\includegraphics[scale=0.4]{9}
+	\begin{itemize}
+		\item Revenir à la branche master (main)
+	\end{itemize}
+	\includegraphics[scale=0.4]{11}
+	
+	\begin{itemize}
+		\item L'état de notre working directory
+	\end{itemize}
+	\includegraphics[scale=0.4]{13}
+	
+	\subsection{Exercice 3 :}
+	\begin{itemize}
+		\item Intégration des nouvelles modifications
+		\begin{itemize}
+			\item \textbf{\textit{\$ git merge branche\_1}}
+		\end{itemize}
+	\end{itemize}
+	\includegraphics[scale=0.5]{17}
+	
+	\begin{itemize}
+		\item Oui la branche existe toujours, et pour la supprimer il faut :
+		\begin{itemize}
+			\item \textbf{\textit{\$ git branche -d branche\_1}}
+		\end{itemize}
+	\end{itemize}
+	\includegraphics[scale=0.5]{18}
+	
+	\subsection{Exercice 3 bis :}
+	\begin{itemize}
+		\item Création d'une nouvelle branche :
+		\begin{itemize}
+			\item \textbf{\textit{\$ git checkout -b forwarde-new-port}}
+		\end{itemize}
+	\end{itemize}
+	\includegraphics[scale=0.5]{20}
+	
+	\begin{itemize}
+		\item Modification et commit :
+	\end{itemize}
+	\includegraphics[scale=0.5]{19}
+	
+
+		\begin{itemize}
+			\item \textbf{\textit{\$ git commit -a -m  "forwarded-new-port"}}
+		\end{itemize}
+	\includegraphics[scale=0.5]{22}
+	
+	\begin{itemize}
+		\item Modification sur le master avec le port 8080:
+		\begin{itemize}
+			\item \textbf{\textit{\$ git checkout master}}
+			\item \textbf{\textit{\$ git commit -a -m "port 8080"}}
+		\end{itemize}
+	\end{itemize}
+	\includegraphics[scale=0.5]{23}
+	
+	\begin{itemize}
+		\item –	Essaie de merge forward-new-port dans le master :
+		\begin{itemize}
+			\item \textbf{\textit{\$ git merge fowarde-new-port}}
+		\end{itemize}
+	\end{itemize}
 \end{document}
